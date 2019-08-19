@@ -1,13 +1,13 @@
 var data = [{
     type: "sunburst",
     ids: [
-        "North America", "Europe", "Australia", "North America - Football", "Soccer",
+        "North America", "Europe", "Australia", "North America - Football", "Soc",
         "North America - Rugby", "Europe - Football", "Rugby", "Europe - American Football",
         "Australia - Football", "Association", "Australian Rules", "Autstralia - American Football",
         "Australia - Rugby", "Rugby League", "Rugby Union"
     ],
     labels: [
-        "North<br>America", "Europe", "Australia", "Football", "Soccer", "Rugby", "Football",
+        "North America1", "Europe", "Australia", "Football", "Soccer", "Rugby", "Football",
         "Rugby", "American<br>Football", "Football", "Association", "Australian<br>Rules",
         "American<br>Football", "Rugby", "Rugby<br>League", "Rugby<br>Union"
     ],

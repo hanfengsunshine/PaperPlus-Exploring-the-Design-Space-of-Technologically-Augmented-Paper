@@ -8,7 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 
 <head>
-	<title>6cors a Corporate Category Flat Bootstarp responsive Website Template| HOME :: w3layouts</title>
+	<title>Paper Zodiac:A Framework for Evaluating the Utility of Augmented Paper</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="6cors Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
@@ -26,6 +26,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!--//fonts-->
 	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
 	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+	<script src="//unpkg.com/sunburst-chart"></script>
 	<script type="text/javascript" src="js/move-top.js"></script>
 	<script type="text/javascript" src="js/easing.js"></script>
 	<script type="text/javascript">
@@ -36,6 +37,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			});
 		});
 	</script>
+	<style type="text/css">
+		.sunburst {
+			position: relative;
+			float: right;
+			width: 50%;
+		}
+	</style>
 </head>
 
 <body>
@@ -164,7 +172,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="what-main">
 				<h3>What We Do?</h3>
 				<div class="what-top">
-					<div class="col-md-6 what-top-left">
+					<div class="col-md-5 what-top-left" style="padding-right: 0px;padding-left: 0px;">
 						<h4><span>We Do</span> Profession Graphics Design</h4>
 						<h5>LAYOUT, STORYBOARD,...</h5>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -174,7 +182,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<!-- <div class="col-md-6 what-top-right">
 						<img src="images/service-1.png" alt="" />
 					</div> -->
-					<div id="myDiv">
+					<div id="myDiv" class="sunburst">
 
 					</div>
 					<script src="js/Sunburst.js"></script>
