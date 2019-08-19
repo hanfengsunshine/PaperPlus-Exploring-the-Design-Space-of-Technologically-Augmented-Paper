@@ -313,11 +313,11 @@ color:#000;
 .header-left-logo{
 	width:20%;
 	float:left;
-	text-align: right;
+	/* text-align: right; */
 }
 .header-left-text {
 	width: 77%;
-	float: right;
+	float: left;
 	text-align: left;
 }
 /*--end-header--*/
