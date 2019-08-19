@@ -344,8 +344,11 @@ color:#000;
 /*--end-about--*/
 /*--start-what--*/
 .what {
-	background: #272727;
+	background: #fff;
 	padding: 6em 0px 2em 0px;
+}
+.what img{
+	width: 150%;
 }
 .what-main h3,.blog-main h3,.price-main h3,
 .quality-main h3,.touch-main h3,.clients-mian h3{
@@ -385,7 +388,7 @@ color:#000;
 	margin: 1em 0px 0px 0px;
 }
 .what-top-left p,.what-middle-right p {
-	color: #fff;
+	color: #000;
 	font-size: 19px;
 	line-height: 1.4em;
 	font-weight: 400;
@@ -400,7 +403,7 @@ color:#000;
 }
 .what-middle-right {
 	text-align: left;
-	padding-left: 19%;
+	padding-left: 30%;
 }
 /*--end-what--*/
 /*--start-project--*/
@@ -659,7 +662,7 @@ color:#000;
 /*--start-footer--*/
 .footer{
 	padding:2em 0px;
-	background:#e22e2e;
+	background:#212121;
 	text-align:center;
 }
 .footer-text p {
