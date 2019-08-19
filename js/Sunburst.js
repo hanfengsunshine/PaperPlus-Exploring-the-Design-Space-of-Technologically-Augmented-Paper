@@ -1,20 +1,27 @@
 var data = [{
     type: "sunburst",
     ids: [
-        "North America", "Europe", "Australia", "North America - Football", "Soc",
-        "North America - Rugby", "Europe - Football", "Rugby", "Europe - American Football",
-        "Australia - Football", "Association", "Australian Rules", "Autstralia - American Football",
-        "Australia - Rugby", "Rugby League", "Rugby Union"
+        'Task', 'Interface', 'Context', 'Interaction', 'User', 'Intrinsic Properties', 'Durability', 
+		'Digitally Extended Properties', 'Spatiality', 'Temporality', 'Environment', 
+		'Range of Content Input', 'Content Navigation', 'Physical Manipulation', 
+		'Collaboration', 'Feedback', 'Personalization', 'Privacy', 'Security', 'Accessibility', 'Cost', 
+		'Information Affordance', 'Physical Reconfigurability', 'Digitalization', 
+		'Exploration', 'Organization', 'Findability', 'Information Volume', 'Information Variety'
     ],
     labels: [
-        "North America1", "Europe", "Australia", "Football", "Soccer", "Rugby", "Football",
-        "Rugby", "American<br>Football", "Football", "Association", "Australian<br>Rules",
-        "American<br>Football", "Rugby", "Rugby<br>League", "Rugby<br>Union"
+        'Task', 'Interface', 'Context', 'Interaction', 'User', 'Intrinsic<br>Properties', 
+		'Digitally Extended<br>Properties', 'Spatiality', 'Temporality', 'Environment', 
+		'Spatiality', 'Temporality', 'Environment',
+		'Range of<br>Content Input', 'Content<br>Navigation', 'Physical<br>Manipulation', 
+		'Collaboration', 'Feedback', 'Personalization', 'Privacy', 'Security', 'Accessibility', 'Cost', 
+		'Information<br>Affordance', 'Physical<br>Reconfigurability', 'Durability', 'Digitalization', 
+		'Exploration', 'Organization', 'Findability', 'Information<br>Volume', 'Information<br>Variety'
     ],
     parents: [
-        "", "", "", "North America", "North America", "North America", "Europe", "Europe",
-        "Europe", "Australia", "Australia - Football", "Australia - Football", "Australia - Football",
-        "Australia - Football", "Australia - Rugby", "Australia - Rugby"
+        "", "", "", "Task", "Task", "Interface", "Interface", "Interface", "Context", "Context", "Context", 
+		"Interaction", "Interaction", "Interaction", "Interaction", "Interaction", "User", "User", "User",
+		"User", "Intrinsic Properties", "Intrinsic Properties", "Intrinsic Properties", "Digitally Extended Properties",
+		"Content Navigation", "Content Navigation", "Content Navigation", "Information Affordance", "Information Affordance"
     ],
     outsidetextfont: { size: 20, color: "#377eb8" },
     // leaf: {opacity: 0.4},
