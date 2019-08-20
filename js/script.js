@@ -7,7 +7,7 @@ var colorscale = d3.scale.category10();
 var LegendOptions = ['Attributes of 20'];
 
 /* set up XMLHttpRequest */
-var url = "../data/Books.xlsx";
+var url = "https://github.com/maybeLee/Chi-20-Paper-Zodiac-A-Framework-for-Evaluating-the-Utility-of-Augmented-Paper/blob/master/data/Books.xlsx";
 var oReq = new XMLHttpRequest();
 oReq.open("GET", url, true);
 oReq.responseType = "arraybuffer";
