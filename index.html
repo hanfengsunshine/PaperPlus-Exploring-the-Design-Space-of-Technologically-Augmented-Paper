@@ -20,9 +20,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 	<!--//theme-style-->
 	<!--fonts-->
-	<!-- <link
+	<link
 		href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic'
-		rel='stylesheet' type='text/css'> -->
+		rel='stylesheet' type='text/css'>
 	<!--//fonts-->
 	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
 	<script src="https://d3js.org/d3.v3.min.js"></script>
@@ -54,8 +54,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 	<!--start-banner-->
 	<div class="header" id="home">
-		<div class="header-top">
-			<a href="index.html"><img src="images/logo-2.png" alt="" /></a>
+		<div class="header-top" style="padding-top: 0px;">
+			<!-- <a href="index.html"><img src="images/logo-2.png" alt="" /></a> -->
 			<h2>WELCOME TO OUR SITE</h2>
 			<h1>We create beautiful website</h1>
 			<div class="header-top-bottom">
@@ -67,10 +67,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="h_menu4">
 					<!-- start h_menu4 -->
 					<div class="h_menu4">
-						<div class="header-left-logo">
-							<a href="index.html"><img src="images/logo-1.png" alt="" /></a>
-						</div>
-						<div class="header-left-text">
+						<!-- <div class="header-left-logo" style="width: 13%">
+							<a href="index.html"><img src="Img/White.png" alt="" /></a>
+						</div> -->
+						<div class="header-left-text" style="width:87%;margin-left: 13%;">
 							<a class="toggleMenu" href="#"><img src="images/menu-icon.png" alt="" /></a>
 							<ul class="nav">
 								<li><a href="#about" class="scroll">RESEARCH BACKGROUND</a></li>
@@ -137,7 +137,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="about-main">
 				<h3>RESEARCH BACKGROUND</h3>
-				<div class="about-top" style="margin-left:0px;margin-padding-left: 0px;">
+				<div class="about-main" style="margin-left:0px;margin-padding-left: 0px;">
 					<div class="research-background">
 						<h4>As an information carrier, Paper is ubiquitous and important from time to time in various
 							areas including industry and academia like advertisement, education,training across various
@@ -181,10 +181,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<!-- <div class="col-md-6 what-top-right">
 						<img src="images/service-1.png" alt="" />
 					</div> -->
-					<div id="myDiv" class="sunburst">
+					<!-- <div id="myDiv" class="sunburst">
 
 					</div>
-					<script src="js/Sunburst.js"></script>
+					<script src="js/Sunburst.js"></script> -->
+					<div class="col-md-5 what-top-right" style="padding-left: 10%">
+						<img src="Img/Structure of Attributes(Aster Plot).png" alt="" />
+					</div>
 					<div class="clearfix"></div>
 				</div>
 				<!-- Taxonomy of Attribute END -->
@@ -197,14 +200,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="what" id="Page3">
 		<div class="container">
 			<div class="what-main">
-				<h3>Taxonomy of Attributes Framework</h3>
+				<h3>Result Presentation of Crowdsourcing</h3>
 
 				<div class="what-middle">
 
-					<div class="col-md-6 what-middle-left">
+					<div class="col-md-4 what-top-left" style="padding-right: 0px;padding-left: 0px;">
 						<img src="Img/page3_img1.png" alt="" />
 					</div>
-					<div class="col-md-6 what-middle-right">
+					<div class="col-md-8 what-middle-right" style="padding-left: 20%;padding-right: 0px;">
 						<h4><span>We Do</span> Profession Web Development</h4>
 						<h5>WORDPRESS,MAGENTO,...</h5>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -220,7 +223,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<p>This is a brief description about radar chart of printed digital document
 						</p>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 what-top-right">
 						<div id="bodychart">
 							<div id="chart"></div>
 						</div>

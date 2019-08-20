@@ -49,7 +49,7 @@ var data = [{
 
 var layout = {
     margin: { l: 0, r: 0, b: 0, t: 0 },
-    sunburstcolorway: ["#636efa", "#ef553b", "#00cc96"],
+    sunburstcolorway: ['#D10019', '#004169', '#4D4D4D'],
 };
 
 

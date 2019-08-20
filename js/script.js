@@ -7,7 +7,7 @@ var colorscale = d3.scale.category10();
 var LegendOptions = ['Attributes of 20'];
 
 /* set up XMLHttpRequest */
-var url = "../Books.xlsx";
+var url = "../data/Books.xlsx";
 var oReq = new XMLHttpRequest();
 oReq.open("GET", url, true);
 oReq.responseType = "arraybuffer";
