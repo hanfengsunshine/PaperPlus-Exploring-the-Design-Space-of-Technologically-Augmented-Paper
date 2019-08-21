@@ -13,23 +13,75 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="6cors Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-	<script
-		type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 	<!--theme-style-->
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<style type="text/css">
+		.sunburst {
+			position: relative;
+			float: right;
+			width: 50%;
+		}
+
+		.myButton {
+			-moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
+			-webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
+			box-shadow: 0px 0px 0px 2px #9fb4f2;
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
+			background: -moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+			background: -webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+			background: -o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+			background: -ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+			background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e', GradientType=0);
+			background-color: #7892c2;
+			-moz-border-radius: 10px;
+			-webkit-border-radius: 10px;
+			border-radius: 10px;
+			border: 1px solid #4e6096;
+			display: inline-block;
+			cursor: pointer;
+			color: #ffffff;
+			font-family: Arial;
+			font-size: 20px;
+			padding: 12px 37px;
+			text-decoration: none;
+			text-shadow: 0px 1px 0px #283966;
+		}
+
+		.myButton:hover {
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #476e9e), color-stop(1, #7892c2));
+			background: -moz-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+			background: -webkit-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+			background: -o-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+			background: -ms-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+			background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2', GradientType=0);
+			background-color: #476e9e;
+		}
+
+		.myButton:active {
+			position: relative;
+			top: 1px;
+		}
+	</style>
 	<!--//theme-style-->
 	<!--fonts-->
 	<link
 		href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic'
 		rel='stylesheet' type='text/css'>
 	<!--//fonts-->
+	<!-- Script START-->
 	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
 	<script src="https://d3js.org/d3.v3.min.js"></script>
 	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 	<script type="text/javascript" src="js/xlsx.full.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/jszip.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/xlsx.js"></script>
+	<script
+		type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!-- <script src="//unpkg.com/sunburst-chart"></script> -->
 	<script type="text/javascript" src="js/move-top.js"></script>
 	<script type="text/javascript" src="js/easing.js"></script>
@@ -42,18 +94,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			});
 		});
 	</script>
-	<style type="text/css">
-		.sunburst {
-			position: relative;
-			float: right;
-			width: 50%;
-		}
-	</style>
+	<!-- Script END-->
 </head>
 
 <body>
 	<!--start-banner-->
-	<div class="header" id="home" style="min-height: 500px;">
+	<div class="header" id="home" style="min-height: 650px;">
 		<div class="header-top" style="padding-top: 0px;">
 			<!-- <a href="index.html"><img src="images/logo-2.png" alt="" /></a> -->
 			<h2 style="margin-top: 5%;">WELCOME TO OUR SITE</h2>
@@ -132,7 +178,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<!--end-banner-->
-	<!--start-Page 1-->
+	<!--start-Page 1 Background -->
 	<div class="about" id="about">
 		<div class="container">
 			<div class="about-main">
@@ -163,8 +209,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 	</div>
-	<!--end-Page 1-->
-	<!--start-Page 2-->
+	<!--end-Page 1 Background-->
+	<!--start-Page 2 Attributes Framework-->
 	<div class="what" id="work">
 		<div class="container">
 			<div class="what-main">
@@ -196,7 +242,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 	</div>
-	<!--start-Page 3-->
+	<!--end-Page 2 Attributes Framework-->
+	<!--start-Page 3 Result of Crowdsourcing-->
 	<div class="what" id="Page3">
 		<div class="container">
 			<div class="what-main">
@@ -223,182 +270,180 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</p>
 					</div>
 					<div class="col-md-4 what-top-right"-->
-						<div id="bodychart">
-							<div id="chart"></div>
-						</div>
-					
-						<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
-						<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
-						<div class="banner-box">
-							<div class="bd">
-								<ul>          	    
-									<li style="background:#F3E5D8;">
-										<div class="col-md-6 what-top-left" style="padding-right: 2%;padding-left: 2%">
+					<div id="bodychart">
+						<div id="chart"></div>
+					</div>
+					<div class="banner-box">
+						<div class="bd">
+							<ul>
+								<li style="background:#F3E5D8;">
+									<div class="col-md-6 what-top-left" style="padding-right: 2%;padding-left: 2%">
 										<h4><span>We Do</span> Radar Chart</h4>
 										<h5>Radar Chart of Product: Printed Digital Document</h5>
 										<p>This is a brief description about radar chart of printed digital document 1
 										</p>
-										</div>
-										<div class="m-width">
+									</div>
+									<div class="m-width">
 										<a href="javascript:void(0);"><img src="Img/img1.png" /></a>
-										</div>
-									</li>
-									<li style="background:#B01415">
-										<div class="col-md-6 what-top-left" style="padding-right: 2%;padding-left: 2%">
+									</div>
+								</li>
+								<li style="background:#B01415">
+									<div class="col-md-6 what-top-left" style="padding-right: 2%;padding-left: 2%">
 										<h4><span>We Do</span> Radar Chart</h4>
 										<h5>Radar Chart of Product: Printed Digital Document</h5>
 										<p>This is a brief description about radar chart of printed digital document 2
 										</p>
-										</div>
-										<div class="m-width">
+									</div>
+									<div class="m-width">
 										<a href="javascript:void(0);"><img src="Img/img2.png" /></a>
-										</div>
-									</li>
-									<li style="background:#C49803;">
-										<div class="col-md-6 what-top-left" style="padding-right: 2%;padding-left: 2%">
+									</div>
+								</li>
+								<li style="background:#C49803;">
+									<div class="col-md-6 what-top-left" style="padding-right: 2%;padding-left: 2%">
 										<h4><span>We Do</span> Radar Chart</h4>
 										<h5>Radar Chart of Product: Printed Digital Document</h5>
 										<p>This is a brief description about radar chart of printed digital document 3
 										</p>
-										</div>
-										<div class="m-width">
+									</div>
+									<div class="m-width">
 										<a href="javascript:void(0);"><img src="Img/img3.png" /></a>
-										</div>
-									</li>
-									<li style="background:#FDFDF5">
-										<div class="col-md-6 what-top-left" style="padding-right: 2%;padding-left: 2%">
+									</div>
+								</li>
+								<li style="background:#FDFDF5">
+									<div class="col-md-6 what-top-left" style="padding-right: 2%;padding-left: 2%">
 										<h4><span>We Do</span> Radar Chart</h4>
 										<h5>Radar Chart of Product: Printed Digital Document</h5>
 										<p>This is a brief description about radar chart of printed digital document
 										</p>
-										</div>
-										<div class="m-width">
+									</div>
+									<div class="m-width">
 										<a href="javascript:void(0);"><img src="Img/img4.png" /></a>
-										</div>
-									</li>  
-									<li style="background:#F3E5D8;">
-										<div class="col-md-6 what-top-left" style="padding-right: 2%;padding-left: 2%">
+									</div>
+								</li>
+								<li style="background:#F3E5D8;">
+									<div class="col-md-6 what-top-left" style="padding-right: 2%;padding-left: 2%">
 										<h4><span>We Do</span> Radar Chart</h4>
 										<h5>Radar Chart of Product: Printed Digital Document</h5>
 										<p>This is a brief description about radar chart of printed digital document
 										</p>
-										</div>
-										<div class="m-width">
+									</div>
+									<div class="m-width">
 										<a href="javascript:void(0);"><img src="Img/img5.png" /></a>
-										</div>
-									</li>
-									<li style="background:#B01415">
-										<div class="col-md-6 what-top-left" style="padding-right: 2%;padding-left: 2%">
+									</div>
+								</li>
+								<li style="background:#B01415">
+									<div class="col-md-6 what-top-left" style="padding-right: 2%;padding-left: 2%">
 										<h4><span>We Do</span> Radar Chart</h4>
 										<h5>Radar Chart of Product: Printed Digital Document</h5>
 										<p>This is a brief description about radar chart of printed digital document
 										</p>
-										</div>
-										<div class="m-width">
+									</div>
+									<div class="m-width">
 										<a href="javascript:void(0);"><img src="Img/img6.png" /></a>
-										</div>
-									</li>
-									<li style="background:#C49803;">
-										<div class="col-md-6 what-top-left" style="padding-right: 2%;padding-left: 2%">
+									</div>
+								</li>
+								<li style="background:#C49803;">
+									<div class="col-md-6 what-top-left" style="padding-right: 2%;padding-left: 2%">
 										<h4><span>We Do</span> Radar Chart</h4>
 										<h5>Radar Chart of Product: Printed Digital Document</h5>
 										<p>This is a brief description about radar chart of printed digital document
 										</p>
-										</div>
-										<div class="m-width">
+									</div>
+									<div class="m-width">
 										<a href="javascript:void(0);"><img src="Img/img7.png" /></a>
-										</div>
-									</li>
-									<li style="background:#FDFDF5">
-										<div class="col-md-6 what-top-left" style="padding-right: 2%;padding-left: 2%">
+									</div>
+								</li>
+								<li style="background:#FDFDF5">
+									<div class="col-md-6 what-top-left" style="padding-right: 2%;padding-left: 2%">
 										<h4><span>We Do</span> Radar Chart</h4>
 										<h5>Radar Chart of Product: Printed Digital Document</h5>
 										<p>This is a brief description about radar chart of printed digital document
 										</p>
-										</div>
-										<div class="m-width">
+									</div>
+									<div class="m-width">
 										<a href="javascript:void(0);"><img src="Img/img8.png" /></a>
-										</div>
-									</li>
-									<li style="background:#F3E5D8;">
-										<div class="col-md-6 what-top-left" style="padding-right: 2%;padding-left: 2%">
+									</div>
+								</li>
+								<li style="background:#F3E5D8;">
+									<div class="col-md-6 what-top-left" style="padding-right: 2%;padding-left: 2%">
 										<h4><span>We Do</span> Radar Chart</h4>
 										<h5>Radar Chart of Product: Printed Digital Document</h5>
 										<p>This is a brief description about radar chart of printed digital document
 										</p>
-										</div>
-										<div class="m-width">
+									</div>
+									<div class="m-width">
 										<a href="javascript:void(0);"><img src="Img/img9.png" /></a>
-										</div>
-									</li>
-									<li style="background:#B01415">
-										<div class="col-md-6 what-top-left" style="padding-right: 2%;padding-left: 2%">
+									</div>
+								</li>
+								<li style="background:#B01415">
+									<div class="col-md-6 what-top-left" style="padding-right: 2%;padding-left: 2%">
 										<h4><span>We Do</span> Radar Chart</h4>
 										<h5>Radar Chart of Product: Printed Digital Document</h5>
 										<p>This is a brief description about radar chart of printed digital document
 										</p>
-										</div>
-										<div class="m-width">
+									</div>
+									<div class="m-width">
 										<a href="javascript:void(0);"><img src="Img/img10.png" /></a>
-										</div>
-									</li>
-									<li style="background:#C49803;">
-										<div class="col-md-6 what-top-left" style="padding-right: 2%;padding-left: 2%">
+									</div>
+								</li>
+								<li style="background:#C49803;">
+									<div class="col-md-6 what-top-left" style="padding-right: 2%;padding-left: 2%">
 										<h4><span>We Do</span> Radar Chart</h4>
 										<h5>Radar Chart of Product: Printed Digital Document</h5>
 										<p>This is a brief description about radar chart of printed digital document
 										</p>
-										</div>
-										<div class="m-width">
+									</div>
+									<div class="m-width">
 										<a href="javascript:void(0);"><img src="Img/img11.png" /></a>
-										</div>
-									</li>
-									<li style="background:#FDFDF5">
-										<div class="col-md-6 what-top-left" style="padding-right: 2%;padding-left: 2%">
+									</div>
+								</li>
+								<li style="background:#FDFDF5">
+									<div class="col-md-6 what-top-left" style="padding-right: 2%;padding-left: 2%">
 										<h4><span>We Do</span> Radar Chart</h4>
 										<h5>Radar Chart of Product: Printed Digital Document</h5>
 										<p>This is a brief description about radar chart of printed digital document
 										</p>
-										</div>
-										<div class="m-width">
+									</div>
+									<div class="m-width">
 										<a href="javascript:void(0);"><img src="Img/img12.png" /></a>
-										</div>
-									</li>  
-         
-								</ul>
-							</div>
-							<div class="banner-btn">
-								<a class="prev" href="javascript:void(0);"></a>
-								<a class="next" href="javascript:void(0);"></a>
-								<div class="hd"><ul></ul></div>
+									</div>
+								</li>
+
+							</ul>
+						</div>
+						<div class="banner-btn">
+							<table style="margin-bottom: 2%;margin-left: 5%; width: 5%;height: 50px;">
+								<td>
+									<a class="prev myButton">Previous</a>
+								</td>
+								<td style="padding-left: 200px;">
+									<a class="next myButton">Next</a>
+								</td>
+							</table>
+							<div class="hd">
+								<ul></ul>
 							</div>
 						</div>
-						<script type="text/javascript">
-$(document).ready(function(){
+					</div>
 
-	$(".prev,.next").hover(function(){
-		$(this).stop(true,false).fadeTo("show",0.9);
-	},function(){
-		$(this).stop(true,false).fadeTo("show",0.4);
-	});
-	
-	$(".banner-box").slide({
-		titCell:".hd ul",
-		mainCell:".bd ul",
-		effect:"fold",
-		interTime:3500,
-		delayTime:500,
-		autoPlay:false,
-		autoPage:true, 
-		trigger:"click" 
-	});
 
-});
-						</script>
-						<div style="text-align:center;clear:both;">
-						<script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
-						<script src="/follow.js" type="text/javascript"></script>
-						</div>
+					<script type="text/javascript">
+						$(document).ready(function () {
+
+
+							$(".banner-box").slide({
+								titCell: ".hd ul",
+								mainCell: ".bd ul",
+								effect: "fold",
+								interTime: 3500,
+								delayTime: 500,
+								autoPlay: false,
+								autoPage: true,
+								trigger: "click"
+							});
+
+						});
+					</script>
 					<!--/div-->
 					<div class="clearfix"></div>
 				</div>
@@ -406,7 +451,7 @@ $(document).ready(function(){
 			</div>
 		</div>
 	</div>
-	<!-- end-Page 3 -->
+	<!-- end-Page 3 Result of Crowdsourcing-->
 	<!--end-what-->
 
 	<!--start-project-->
@@ -670,8 +715,8 @@ $(document).ready(function(){
 	</div> -->
 	<!--end-clients-->
 	<!--Slider-Starts-Here-->
-	<script src="js/responsiveslides.min.js"></script>
-	<script>
+
+	<!-- <script>
 		// You can also use "$(window).load(function() {"
 		$(function () {
 			// Slideshow 4
@@ -690,8 +735,8 @@ $(document).ready(function(){
 			});
 
 		});
-	</script>
-	<script>
+	</script> -->
+	<!-- <script>
 		// You can also use "$(window).load(function() {"
 		$(function () {
 			// Slideshow 4
@@ -710,7 +755,7 @@ $(document).ready(function(){
 			});
 
 		});
-	</script>
+	</script> -->
 	<!--End-slider-script-->
 	<!--start-blog-->
 	<!-- <div class="blog" id="blogs">
