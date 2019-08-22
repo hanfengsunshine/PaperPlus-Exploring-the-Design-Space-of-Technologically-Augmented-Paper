@@ -69,7 +69,8 @@ body a{
 .nav li a {
 	display: block;
 	margin: 0px 10px;
-	font-size: 17px;
+	font-size: 30px;
+	text-align: center;
 	padding: 0;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
@@ -166,7 +167,7 @@ body a{
 	z-index: 999;
 }
 .nav li.active a{
-color:#000;
+color:red;
 }
 .fixed{
 	position: fixed;
@@ -336,11 +337,11 @@ color:#000;
 	margin:10%,0,10%,0;
 	/* text-align: right; */
 }
-.about-main h3 {
+/* .about-main h3 {
 	color: #000;
 	letter-spacing: 2px;
 	margin: 0;
-}
+} */
 /*--end-about--*/
 /*--start-what--*/
 .what {
@@ -350,16 +351,16 @@ color:#000;
 .what img{
 	width: 150%;
 }
-.what-main h3,.blog-main h3,.price-main h3,
+.what-main h3,.about-main h3, .blog-main h3,.price-main h3,
 .quality-main h3,.touch-main h3,.clients-mian h3{
-	color: #e22e2e;
+	color: #000;
 	font-size: 3.2em;
 	font-weight: 900;
 	letter-spacing: 1px;
 	margin: 0;
 	text-align: center;
 	position: relative;
-	background: url(../images/hexa1.png) no-repeat 500px 0px;
+	/* background: url(../images/hexa1.png) no-repeat 500px 0px; */
 	padding: 1em 0px;
 }
 .what-main h4,.what-middle-right h4{
@@ -1372,7 +1373,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 .header-left-text {
 	width: 83%;
 }
-.what-main h3, .blog-main h3, .price-main h3, .quality-main h3, .touch-main h3, .clients-mian h3 {
+.what-main h3,.about-main h3, .blog-main h3, .price-main h3, .quality-main h3, .touch-main h3, .clients-mian h3 {
 	font-size: 3em;
 	background: url(../images/hexa1.png) no-repeat 395px 0px;
 	padding: 1.08em 0px;
@@ -1465,9 +1466,9 @@ ul.callbacks_tabs.callbacks2_tabs {
 .header {
 	min-height: 520px;
 }
-.about-main h3 {
+/* .about-main h3 {
 	font-size: 1.6em;
-}
+} */
 
 .about-top {
 	padding: 1.5em 0px;
@@ -1475,7 +1476,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 .about {
 	min-height: 1140px;
 }
-.what-main h3, .blog-main h3, .price-main h3, .quality-main h3,
+.what-main h3,.about-main h3, .blog-main h3, .price-main h3, .quality-main h3,
  .touch-main h3, .clients-mian h3 {
 	font-size: 2.55em;
 	background: url(../images/hexa1.png) no-repeat 311px 0px;
@@ -1681,9 +1682,9 @@ ul.callbacks_tabs.callbacks2_tabs {
 .header {
 	min-height: 445px;
 }
-.about-main h3 {
+/* .about-main h3 {
 	font-size: 1.5em;
-}
+} */
 .about-left img {
 	width: 22%;
 }
@@ -1697,7 +1698,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 .about {
 	min-height: 920px;
 }
-.what-main h3, .blog-main h3, .price-main h3, .quality-main h3, .touch-main h3, .clients-mian h3 {
+.what-main h3,.about-main h3, .blog-main h3, .price-main h3, .quality-main h3, .touch-main h3, .clients-mian h3 {
 	font-size: 2.25em;
 	background: url(../images/hexa1.png) no-repeat 253px 4px;
 	padding: 31px 0px;
@@ -1957,9 +1958,9 @@ ul.callbacks_tabs.callbacks2_tabs {
 .header {
 	min-height: 350px;
 }
-.about-main h3 {
+/* .about-main h3 {
 	font-size: 1.35em;
-}
+} */
 .about-left h4 {
 	font-size: 1.34em;
 	margin: 6px 0px 8px 0px;
@@ -1982,7 +1983,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 .about {
 	min-height: 815px;
 }
-.what-main h3, .blog-main h3, .price-main h3, .quality-main h3, .touch-main h3, .clients-mian h3 {
+.what-main h3,.about-main h3, .blog-main h3, .price-main h3, .quality-main h3, .touch-main h3, .clients-mian h3 {
 	font-size: 2em;
 	background: url(../images/hexa1.png) no-repeat 181px 4px;
 	padding: 24px 0px;
@@ -2235,7 +2236,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 .about {
 	min-height: 625px;
 }
-.what-main h3, .blog-main h3, .price-main h3, .quality-main h3, .touch-main h3, .clients-mian h3 {
+.what-main h3,.about-main h3, .blog-main h3, .price-main h3, .quality-main h3, .touch-main h3, .clients-mian h3 {
 	font-size: 1.8em;
 	background: url(../images/hexa1.png) no-repeat 109px 4px;
 	padding: 19px 0px;
@@ -2297,9 +2298,9 @@ ul.callbacks_tabs.callbacks2_tabs {
 .header {
 	min-height: 300px;
 }
-.about-main h3 {
+/* .about-main h3 {
 	font-size: 1.25em;
-}
+} */
 .about-main {
 	margin-top: 10%;
 }
