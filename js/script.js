@@ -45,12 +45,12 @@ oReq.onload = function (e) {
 
 	//Call function to draw the Radar chart
 	//Will expect that data is in %'s
-	RadarChart.draw("#chart", [d], mycfg);
+	RadarChart.draw(".chart", [d], mycfg);
 	////////////////////////////////////////////
 	/////////// Initiate legend ////////////////
 	////////////////////////////////////////////
 
-	var svg = d3.select('#bodychart')
+	var svg = d3.selectAll('.bodychart')
 		.selectAll('svg')
 		.append('svg')
 		.attr("width", w + 300)

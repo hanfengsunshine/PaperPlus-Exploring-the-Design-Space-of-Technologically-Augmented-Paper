@@ -42,7 +42,7 @@ var RadarChart = {
 	var Format = d3.format('%');
 	d3.select(id).select("svg").remove();
 	
-	var g = d3.select(id)
+	var g = d3.selectAll(id)
 			.append("svg")
 			.attr("width", cfg.w+cfg.ExtraWidthX)
 			.attr("height", cfg.h+cfg.ExtraWidthY)
