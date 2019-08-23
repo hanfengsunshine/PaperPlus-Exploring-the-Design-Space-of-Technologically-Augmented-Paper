@@ -440,12 +440,27 @@ color:red;
 	cursor:pointer;
 	/* width:80px;
 	height:30px; */
-	margin-right:100px;
+	/* margin-right:100px; */
 	list-style-type:none;
 	list-style-position: inside;
 	text-align: center;
 }
 .banner-box .hd ul li.on{background:rgb(143, 178, 223);}
+
+
+.Attr-Butt .Attr:hover{
+	background: rgb(143, 178, 223);
+}
+.Attr-Butt .Attr li{
+	width: 100%;
+	text-align: center;
+}
+.Attr-Butt td{
+	width: 25%;
+}
+.Attr-Butt{
+	width: 100%;
+}
 /*--end-what--*/
 /*--start-project--*/
 .project-left img{
