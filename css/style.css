@@ -337,7 +337,7 @@ color:red;
 	margin:10%,0,10%,0;
 	/* text-align: right; */
 }
-.about-main p {
+.about-main p, .what-main p{
 	color: #000;
 	letter-spacing: 2px;
 	margin: 0;
@@ -427,7 +427,7 @@ color:red;
 	font-size: 19px;
 	line-height: 1.4em;
 	font-weight: 400;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	margin-top: 1em;
 }
 .what-top{
