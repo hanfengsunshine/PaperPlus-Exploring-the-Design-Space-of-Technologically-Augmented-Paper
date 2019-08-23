@@ -337,11 +337,41 @@ color:red;
 	margin:10%,0,10%,0;
 	/* text-align: right; */
 }
-/* .about-main h3 {
+.about-main p {
 	color: #000;
 	letter-spacing: 2px;
 	margin: 0;
-} */
+	font-weight:300;
+	line-height:1.5;
+}
+.about-main p::first-letter
+{
+	overflow:auto;
+	border-radius: 50px;
+	background:#000;
+	color:#fff;
+	font-size: 3em;
+	font-weight: bold;
+	margin-right: 8px;
+	float: left;	
+}
+.about-main ol{
+	list-style-type:none;
+}
+.about-main li span{
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background:#000;
+	color:#fff;
+}
+.about-main li{
+	color: #000;
+	letter-spacing: 2px;
+	margin: 0;
+	font-weight:300;
+	line-height:1.5;
+}
 /*--end-about--*/
 /*--start-what--*/
 .what {
