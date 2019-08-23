@@ -412,7 +412,7 @@ color:red;
 }
 .banner-box{
 	min-width:100%;
-	height:684px;
+	height:800px;
 	position:relative;
 	overflow:hidden;
 }
@@ -445,7 +445,7 @@ color:red;
 	list-style-position: inside;
 	text-align: center;
 }
-.banner-box .hd ul li.on{background:#DA324D;}
+.banner-box .hd ul li.on{background:rgb(143, 178, 223);}
 /*--end-what--*/
 /*--start-project--*/
 .project-left img{
