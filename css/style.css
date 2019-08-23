@@ -448,12 +448,21 @@ color:red;
 .banner-box .hd ul li.on{background:rgb(143, 178, 223);}
 
 
-.Attr-Butt .Attr:hover{
-	background: rgb(143, 178, 223);
+.Attr li:hover{
+	color: rgb(106, 180, 8);
 }
-.Attr-Butt .Attr li{
+.Attr li{
 	width: 100%;
 	text-align: center;
+}
+.Attr .Context{
+	color: #4D4D4D;
+}
+.Attr .Interface{
+	color: #004169;
+}
+.Attr .Task{
+	color: #D10019;
 }
 .Attr-Butt td{
 	width: 25%;
