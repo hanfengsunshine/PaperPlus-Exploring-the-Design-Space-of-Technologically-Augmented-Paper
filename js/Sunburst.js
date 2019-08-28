@@ -1,37 +1,3 @@
-/*var data = [{
-    type: "sunburst",
-    ids: [
-        'Task', 'Interface', 'Context', 'Interaction', 'User', 'Intrinsic Properties', 'Durability', 
-		'Digitally Extended Properties', 'Spatiality', 'Temporality', 'Environment', 
-		'Range of Content Input', 'Content Navigation', 'Physical Manipulation', 
-		'Collaboration', 'Feedback', 'Personalization', 'Privacy', 'Security', 'Accessibility', 'Cost', 
-		'Information Affordance', 'Physical Reconfigurability', 'Digitalization', 
-		'Information Exploration', 'Information Organization', 'Information Findability', 'Information Volume', 'Information Variety'
-    ],
-    labels: [
-        'Task', 'Interface', 'Context', 'Interaction', 'User', 'Intrinsic<br>Properties', 
-		'Digitally Extended<br>Properties', 'Spatiality', 'Temporality', 'Environment', 
-		'Spatiality', 'Temporality', 'Environment',
-		'Range of<br>Content Input', 'Content<br>Navigation', 'Physical<br>Manipulation', 
-		'Collaboration', 'Feedback', 'Personalization', 'Privacy', 'Security', 'Accessibility', 'Cost', 
-		'Information<br>Affordance', 'Physical<br>Reconfigurability', 'Durability', 'Digitalization', 
-		'Information<br>Exploration', 'Information<br>Organization', 'Information<br>Findability', 'Information<br>Volume', 'Information<br>Variety'
-    ],
-    parents: [
-        "", "", "", "Task", "Task", "Interface", "Interface", "Interface", "Context", "Context", "Context", 
-		"Interaction", "Interaction", "Interaction", "Interaction", "Interaction", "User", "User", "User",
-		"User", "Intrinsic Properties", "Intrinsic Properties", "Intrinsic Properties", "Digitally Extended Properties",
-		"Content Navigation", "Content Navigation", "Content Navigation", "Information Affordance", "Information Affordance"
-    ],
-    marker: { line: { width: 2 } },
-	
-}];
-
-var layout = {
-    margin: { l: 0, r: 0, b: 0, t: 0 },
-    sunburstcolorway: ['#D10019', '#004169', '#4D4D4D'],
-};*/
-
 var figure = {
     "data": [
         {
@@ -41,7 +7,7 @@ var figure = {
             "meta": {
                 "columnNames": {
                     "ids": "ids",
-                    "text": "",
+                    "text": "Definition",
                     "labels": "labels",
                     "parents": "parents"
                 }
@@ -88,12 +54,45 @@ var figure = {
                 }
             },
             "opacity": 1,
+            "textsrc": "maybelee98:0:3a7176",
+            "text": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Durability<br>\nDefinition: The time before a product becomes unreliable or unusable<br>\nExample:",
+                "",
+                "Spatiality<br>\nDefinition:This dimension refers to the quality of being associated with space<br>or an arrangement (location, position, direction) in space.<br>\nExample:",
+                "Temporality<br>\nDefinition: This dimension refers to the quality of being associated<br> with space or an arrangement (location, position, direction) in space.<br>\nExample:",
+                "Environment<br>\nDefinition: This dimension refers to the quality of<br> being associated with an environment.<br>\nExample:",
+                "Range of Content Input<br>\nDefinition: refers to the number of different user input modes a product can have. <br>\nExample:",
+                "Content Navigation",
+                "Physical Manipulation<br>\nDefinition: The ability to interact with a physical <br>product in a meaningful manner.<br>\nExample:",
+                "Collaboration<br>\nDefinition: The ability to interact with a physical product<br> in a meaningful manner.<br>\nExample:",
+                "Feedback<br>\nDefinition: The ability to respond to user actions <br>in a meaningful manner.<br>\nExample:",
+                "Personalization<br>\nDefinition: This dimension refers to the ability to <br>change part(s) of a product to match user preferences<br>\nExample:",
+                "Privacy<br>\nDefinition: This dimension refers to the degree to which the user of a particular <br>product is able to control their personal information flow<br>\nExample:",
+                "Security<br>\nDefinition: This dimension refers to the ability to <br>ensure safety from theft, damage, or misuse.<br>\nExample:",
+                "Accessibility<br>\nDefinition: This dimension refers to the ability to accommodate <br>different users with a wide variety of characteristics, <br>backgrounds physical or mental abilities, or need.<br>\nExample:",
+                "Cost<br>\nDefinition: The amount that has to be paid or spent to buy<br> or obtain something.<br>\nExample:",
+                "Information Affordance",
+                "Physical Reconfigurability<br>\nDefinition: This dimension refers to <br>the ability to be shaped into different physical forms.<br>\nExample:",
+                "Ease Digitalization<br>\nDefinition: Ease of Digitalization is a measure of how efficiently data can be transformed from its <br>original capture format (i.e. handwriting) to a digitally interpretable or processable form<br>\nExample:",
+                "Information Exploration<br>\nDefinition: means the ability to view, examine <br>and understand an information space<br>\nExample:",
+                "Information Organization<br>\nDefinition: means the ability to <br>rearrange the presented information into an ordered format<br>\nExample:",
+                "Information Navigation",
+                "Information Volume<br>\nDefinition: Information Volume refers <br>to the amount of information that a product can contain<br>\nExample:",
+                "Information Variety<br>\nDefinition: This dimension refers to the number of content forms (i.e. text, video) <br>employed in the presentation of information in a system<br>\nExample:"
+            ],
             "maxdepth": -1,
             "textfont": {
-                "size": 10
+                "size": 12
             },
             "textinfo": "label",
-            "hoverinfo": "label",
+            "hoverinfo": "text",
             "labelssrc": "maybelee98:0:6de67f",
             "labels": [
                 "Utility",
@@ -127,6 +126,9 @@ var figure = {
                 "Inf. Vol.",
                 "Inf. Var."
             ],
+            "hoverlabel": {
+                "namelength": 15
+            },
             "parentssrc": "maybelee98:0:d8d2f5",
             "parents": [
                 "",
@@ -255,5 +257,4 @@ var figure = {
     "frames": []
 }
 
-
-Plotly.newPlot('myDiv', figure.data, figure.layout, { showSendToCloud: false })
+Plotly.newPlot('myDiv', figure.data, figure.layout,{ showSendToCloud: false })
