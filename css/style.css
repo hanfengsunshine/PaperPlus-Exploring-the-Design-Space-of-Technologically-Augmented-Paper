@@ -492,8 +492,10 @@ color:red;
 }*/
 .Attr li{
 	width: 90%;
-	margin-bottom:5px;
+	margin-bottom:15px;
+	margin-top:15px;
 	text-align: center;
+	border-radius:15px;
 }
 .Attr .Context{
 	background-color:rgba(9,83,156,0.2);
