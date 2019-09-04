@@ -712,7 +712,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												</p>
 											</td>
 										</tr>
-										<tr class="">
+										<tr class="TaskRow">
 											<td class="Attr">
 												<li class="Task Cluster">Range of Content Input</li>
 											</td>
@@ -726,7 +726,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<li class="Task Cluster">Information Findability</li>
 											</td>
 										</tr>
-										<tr>
+										<tr class="TaskRow">
 											<td class="Attr">
 												<li class="Task Cluster">Physical Manipulation</li>
 											</td>
@@ -740,7 +740,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<li class="Task Cluster">Personalization</li>
 											</td>
 										</tr>
-										<tr>
+										<tr class="TaskRow">
 											<td class="Attr">
 												<li class="Task Cluster">Privacy</li>
 											</td>
@@ -752,7 +752,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											</td>
 										</tr>
 
-										<tr>
+										<tr class="InterfaceRow">
 											<td class="Attr">
 												<li class="Interface Cluster">Cost</li>
 											</td>
@@ -766,7 +766,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<li class="Interface Cluster">Physical Reconfigurability</li>
 											</td>
 										</tr>
-										<tr>
+										<tr class="InterfaceRow">
 											<td class="Attr">
 												<li class="Interface Cluster">Durability</li>
 											</td>
@@ -774,7 +774,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<li class="Interface Cluster">Digitalization</li>
 											</td>
 										</tr>
-										<tr>
+										<tr class="ContextRow">
 											<td class="Attr">
 												<li class="Context Cluster">Spatiality</li>
 											</td>
@@ -794,8 +794,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 					<script type="text/javascript">
 						$(document).ready(function () {
-
-
 							$(".banner-box").slide({
 								/*titCell: ".hd ul",*/
 								titCell: ".hd li",
@@ -807,8 +805,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								/*autoPage: true,*/
 								trigger: "click"
 							});
-
 						});
+						var page = document.getElementsByClassName('Interface')
+						for (var i = 0;i<page.length;i++){
+							page[i].style.display = "None";
+						}
+						page = document.getElementsByClassName('Context')
+						for(var i = 0;i<page.length;i++){
+							page[i].style.display = "None";
+						}
 					</script>
 					<div class="clearfix"></div>
 				</div>

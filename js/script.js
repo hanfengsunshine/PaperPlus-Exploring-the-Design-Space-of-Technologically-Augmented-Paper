@@ -108,6 +108,15 @@ function ChangePage(className){
 	for(var i=0;i<cluster.length;i++){
 		cluster[i].style.display="";
 	}
+	// var color
+	// if(className == 'Task'){
+	// 	color = 'rgba(165,15,24,0.2)';
+	// }
+	// var clusterRow = document.getElementsByClassName(className+'Row')
+	// console.log(clusterRow)
+	// for (var i = 0;i<clusterRow.length;i++){
+	// 	clusterRow[i].style['background-color'] = color;
+	// }
 }
 
 //Data
