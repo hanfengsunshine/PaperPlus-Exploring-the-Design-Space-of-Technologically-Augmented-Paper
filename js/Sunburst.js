@@ -95,7 +95,7 @@ var figure = {
             "hoverinfo": "text",
             "labelssrc": "maybelee98:0:6de67f",
             "labels": [
-                "Utility",
+                "Augmented<br>Paper",
                 "Task",
                 "Interface",
                 "Context",
