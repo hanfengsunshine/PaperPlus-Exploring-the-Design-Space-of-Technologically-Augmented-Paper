@@ -412,7 +412,7 @@ color:red;
 	text-align:center;
 }
 .what-top-left {
-	text-align: center;
+	/* text-align: center; */
 	padding-right: 14%;
 }
 .what-top-left h5,.what-middle-right h5 {
@@ -1641,7 +1641,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	background-size: 90px;
 }
 .what-top-left {
-	text-align: center;
+	/* text-align: center; */
 	padding-right: 15px;
 }
 .what-main h4, .what-middle-right h4 {
